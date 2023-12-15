@@ -215,21 +215,24 @@ form .grid_input{
     height: 146.1px;
     margin-top: 29px;
 }
-.text_div{
+.text_btn{
     height: 52px;
+    width: 512px;
     background: rgba(3, 142, 125, 1);
     display: flex;
     align-items: center;
     justify-content: center;
+    border: transparent;
     border-radius: 7px;
 }
-.text_div h1{
+.text_btn a{
     font-family: Lato;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
     letter-spacing: -0.39600005745887756px;
     text-align: center;
+    text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
 #tail{
@@ -382,13 +385,23 @@ sub{
     text-align: left;
     color: rgba(255, 255, 255, 1);
 }
+.col1 span{
+    margin-top: 30px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.008999999612569809px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
 .col2{
     margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-.col2 p{
+.col2 cite{
     font-family: Lato;
     font-size: 16px;
     font-weight: 700;
