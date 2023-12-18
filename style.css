@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: rgba(245, 248, 250, 1)
+    background-color: rgba(245, 248, 250, 1);
 }
 header #navbar{
     width: 1360px;
@@ -98,6 +98,7 @@ header #navbar{
     background-color:rgba(245, 247, 250, 1);
     margin-left: -49px;
     height: 2px;
+    border: none;
 }
 .circle{
     width: 30px;
@@ -255,7 +256,24 @@ form .grid_input{
 }
 #tail span{
     color: rgba(100, 110, 122, 1);
+    font-weight: 400;
 }
+.extended-border {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+.extended-border::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top:13px;
+    bottom: 100px; /* Adjust the value to control the extension */
+    width: 180%;
+    height: 2px; /* Border thickness */
+    background-color: rgba(100, 110, 122, 1); /* Border color */
+    z-index: 1;
+  }
 #section aside{
     width: 312px;
     background-color: rgba(17, 121, 191, 1);
